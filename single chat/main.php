@@ -4,11 +4,14 @@
  $a=$_SESSION["unames"];
  $f=$_SESSION["to"];
 
-    echo $a;
+    
 	
 
 ?>
+<div class="nav">
+<p><?php echo $a; ?></p>
 <a href="logout.php">Logout</a>
+</div>
 <?php
 $l=0;
 $host = "localhost"; 
@@ -40,16 +43,30 @@ $user = "root";
 <html> 
     <head> 
 	<style>
+	.nav{
+		width:100%;
+		height:50px;
+		background-color:#212F3D;
+	}
+	.nav a{
+		position:absolute;
+		right:20px;
+		top:10px;
+		color:white;
+	}
+	.nav p{
+		color:white;
+		padding:10px;
+	}
 	#asides
 		{
 			
-			width:230px;
+			width:350px;
 			height:100%	;
 			background-color:#212F3D;
 			position:absolute;
 			top:54px;
 			right:0;
-			
 		}
 		a{
 			text-decoration: none; 
@@ -70,6 +87,8 @@ $user = "root";
 			color:#ABB2B9;
 			font-size:20px;
 		}
+		
+		
 		</style>
         <title>My Chat App</title> 
         <link rel="stylesheet" href="style.css" media="all" /> 
