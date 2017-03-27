@@ -119,7 +119,7 @@ left:35%;
 		#asides
 		{
 			
-			width:230px;
+			width:350px;
 			height:100%	;
 			background-color:#212F3D;
 			position:absolute;
