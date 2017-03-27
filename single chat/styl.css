@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+	background-color: #9999ff;
+}
+h2{
+	color: white;
+}
+.container{
+	width: 600px;
+	border: solid;
+	border-radius: 20px;
+	border-width: 1px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 10px 20px 10px;
+	background-color: #6600cc;
+}
+input[type="password"],input[type="text"]{
+	width: 500px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	padding: 10px;
+	border-radius: 10px;
+}
+h2{
+	text-align: center;
+}
+input[type="submit"]{
+	width: 200px;
+	margin-left: 200px;
+	padding: 10px;
+	background-color: #ff6600;
+	color: white;
+	border-radius: 10px;
+}
